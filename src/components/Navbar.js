@@ -1,20 +1,26 @@
 import "./navbar.css"
 import logo from "../images/l2.png"
 import React from 'react'
-
+import { Link } from "react-router-dom"
 function Navbar() {
     return (
         
         <nav className="pizzanav">
         <div className="container">
-            <a className="logoBrand"><img src={logo}></img></a>
+            {/* <div className="logoWrap">
+                <a className="logoBrand" href="#"><img src={logo} height="150" width="150" style={{margin:"2px"}}></img></a>
+            </div> */}
+          
             <div className="navDiv">
-                <ul>
-                    <li className="active">Home</li>
-                    <li>About</li>
-                    <li>Menu</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
+            <div className="logoWrap">
+                <a className="logoBrand" href="#"><img src={logo} height="150" width="150" style={{margin:"2px"}}></img></a>
+            </div>
+                <ul className="ull">
+                   <Link to={`/`} ><li className="active">Home</li></Link>
+                   <Link to={`/about`} ><li >About</li></Link>
+                   {/* <Link to={`/menu`} ><li >Menu</li></Link>
+                   <Link to={`/blog`} ><li >Blog</li></Link>
+                   <Link to={`/contact`} ><li >Contact</li></Link> */}
                 </ul>
             </div>
         </div>
