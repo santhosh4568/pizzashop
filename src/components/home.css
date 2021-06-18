@@ -1,0 +1,53 @@
+.pizzaHome
+{
+    display:flex;
+  
+    
+}
+.VideoPlay
+{
+    height:90%;
+    width:100%;
+   
+}
+video
+{
+    height:90%;
+    width:100%;
+}
+.homeText
+{
+    display: flex;
+    flex-direction: column;
+    margin-top:350px;
+    position:fixed;
+  justify-content: center;
+  align-items: center;
+}
+.t1
+{
+    font-family: 'Oswald', serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    margin-left:20%;
+ 
+}
+.t2,.t3,.t4
+{
+    font-family: 'Merriweather', serif;
+    color:white;
+    text-transform: uppercase;
+    font-size:50px;
+  
+}
+.t2{
+    margin-left: 40%;
+}
+.t3{
+    margin-left:50%;
+}
+.t4
+{
+    margin-left:70%;
+}
