@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Oswald:wght@200&display=swap');
+.menu
+{
+    position:relative;
+}
+.menimg
+{
+    background-image: url('../images/2.jpg');
+    height:35vh;
+    background-position: top;
+}
+.title
+{
+    height:100px;
+    width:200px;
+    background-color: rgb(216,37,47);
+    display:flex;
+    margin-top:-30px;
+    margin-left:16%;
+  
+}
+.title  h2
+{
+    text-align: center;
+    padding:20px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+
+}
+.title img{
+    margin:10px 0 0 10px;
+}
+.menuDisplay
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.pizzacard .box{
+    position: relative;
+    margin:40px;
+}
+.pizzacard .box .pizzaimg{
+    position: absolute;
+    top: 33px;
+    left:33px;
+    bottom:33px;
+    width:82%;
+    height: 75%;
+    object-fit: cover;
+   mix-blend-mode: screen;
+}
+.mc
+{
+    margin-left: 35px;
+    display: flex;
+    width:82%;
+    
+}
+input[type="radio"]
+{
+    margin:5px;
+}
+input[type="number"]
+{
+    
+    width: 50px;
+}
+.qlabel
+{
+    margin-left:25px;
+}
+.amt
+{
+    float: right;
+    width:75px;
+    background-color: rgb(216,37,47);
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    
+}
+
+
+

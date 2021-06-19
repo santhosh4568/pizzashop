@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import './about.css'
 import abtimage from '../images/abt.png'
 import item from '../images/items.jpg'
+import sep from '../images/sep.png'
 function About() {
     return (
         <div className="about">
@@ -34,6 +35,12 @@ consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor
             </div>
             <div class="abtk">
                <a  href="#"><img src={item} ></img></a>
+            </div>
+            
+            <div className="seperator">
+              <hr className="sephr" />
+              <div className="postsep"><img src={sep}></img></div>
+             
             </div>
         </div>
     )

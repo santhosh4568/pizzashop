@@ -18,9 +18,10 @@ function Navbar() {
                 <ul className="ull">
                    <Link to={`/`} ><li className="active">Home</li></Link>
                    <Link to={`/about`} ><li >About</li></Link>
-                   {/* <Link to={`/menu`} ><li >Menu</li></Link>
-                   <Link to={`/blog`} ><li >Blog</li></Link>
-                   <Link to={`/contact`} ><li >Contact</li></Link> */}
+                   <Link to={`/menu`} ><li >Menu</li></Link>
+                   
+                   {/* <Link to={`/blog`} ><li >Blog</li></Link>
+                   <Link to={`/contact`} ><li >Contact</li></Link>  */}
                 </ul>
             </div>
         </div>

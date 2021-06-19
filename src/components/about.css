@@ -61,3 +61,23 @@ a
 {
     text-decoration: none;
 }
+.seperator
+{
+    margin-top:45px;
+}
+.postsep img
+{
+    position: relative;
+    top: -30px;
+    background: white;
+    padding: 0 90px;
+    margin-left:35%;
+}
+.sephr
+{
+    margin-left:175px;
+    margin-right: 175px;
+}
+.title img{
+    margin:10px 0 0 10px;
+}
