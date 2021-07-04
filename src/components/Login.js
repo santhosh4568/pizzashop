@@ -5,7 +5,7 @@ export default function Login() {
     return (
         <div>
 			<div className="home">
-                <h2 className="t3"><em>PIZZA SHOPEE</em></h2>     
+                <h2 className="t3">PIZZA SHOPEE</h2>     
             </div>
 			<div className="card1">
 				<form>

@@ -1,11 +1,12 @@
 import React from 'react'
 import "./register.css"
 import {Link} from 'react-router-dom'
+
 export default function Register() {
     return (
         <div>
             <div className="home1">
-                <h2 className="t4"><em>PIZZA SHOPEE REGISTER</em></h2>     
+                <h2 className="t4">PIZZA SHOPEE REGISTER</h2>     
             </div>
 			<div className="card1">
 				<form>
