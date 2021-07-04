@@ -2,8 +2,6 @@
 .logoBrand
 {
     background-color: transparent;
-    
-    
 }
 .logoBrand>img{
     margin-top: -40px;
@@ -12,15 +10,12 @@
 {
     position:absolute;
     margin-top:0;
-   
 }
 .container
 {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
 }
 .ull
 {
@@ -30,27 +25,25 @@
 }
  .logoWrap
 {
-            padding: 10px 5px;
-			background-color: #fff;
-			box-shadow: 2px 1px 9px rgba(0,0,0,0.3);
-			border-radius: 0 0 15px 15px;
-			margin-bottom: -70px;
-			width: 150px;
-    		margin-top: 10px;
+    padding: 10px 5px;
+	background-color: #fff;
+	box-shadow: 2px 1px 9px rgba(0,0,0,0.3);
+	border-radius: 0 0 15px 15px;
+	margin-bottom: -70px;
+	width: 150px;
+    margin-top: 10px;
 }
 .navDiv
 {
-     margin-left:275px;
+    margin-left:275px;
     height:185px;
-     position:relative;
+    position:relative;
 }
 ul
 {
     justify-content: center;
     align-items: center;
     margin-top: -50px;
-   
-   
 }
 li{
     color:black;

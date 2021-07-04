@@ -4,6 +4,8 @@ import Home from './components/Home'
 import About from './components/About'
 import Menu from './components/Menu'
 import Contact from './components/Contact'
+import Login from './components/Login'
+import Register from './components/Register'
 function App() {
   return (
     <Router>
@@ -12,6 +14,8 @@ function App() {
       <Route path="/about" component={About} />
        <Route path="/menu" component={Menu}/>
        <Route path="/contact" component={Contact}/>
+       <Route path="/login" component={Login}/>
+       <Route path="/register" component={Register}/>
     </div>
     </Router>
   );

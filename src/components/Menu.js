@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import Navbar from './Navbar'
 import './Menu.css'
 import abtimage from '../images/abt.png'
-import {Container,Form} from 'react-bootstrap'
+import {Container} from 'react-bootstrap'
 import frame from '../images/frame.png'
 import pizza from '../images/3.jpg'
 class Menu extends Component {
@@ -42,7 +42,7 @@ class Menu extends Component {
         <a  href="#"><img src={abtimage} ></img></a>
         <h2>MENU</h2>
         </div>
-           <Container>
+            <Container>
               <div className="menuDisplay">
                 <div class="pizzacard">
                         <div className="box">
